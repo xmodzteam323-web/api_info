@@ -1,0 +1,23 @@
+{
+    "keys": {
+        "ABC123": {
+            "active": false,
+            "duration": 3600,
+            "expires_at": 1764965046.585994
+        },
+        "VIP999": {
+            "active": true,
+            "duration": 86400,
+            "expires_at": 1765047846.585994
+        },
+        "TEST0": {
+            "active": false,
+            "duration": 7200
+        },
+        "Cristiano_ronaldo_dos_santos_aveiro": {
+            "active": true,
+            "duration": 2900000,
+            "expires_at": 1767861446.585994
+        }
+    }
+}
