@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: DVM7_INFO_API
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: EXTERNAL_API
+        value: https://dev-info-pi.vercel.app/player-info
